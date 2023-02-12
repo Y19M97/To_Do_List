@@ -1,0 +1,107 @@
+.App {
+  min-height: 100vh;
+}
+.formImput {
+  margin-left: 200px;
+  width: 70% !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.formImput:focus {
+  box-shadow: none !important;
+}
+.submit {
+  margin-left: -85px;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.submit .faPlus {
+  -webkit-transition: transform .3s;
+  -moz-transition: transform .3s;
+  transition: transform .3s;
+  font-size: 20px;
+}
+.submit .faPlus:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.bg-list {
+  background-color: rgb(211, 209, 209);
+  border-radius: 15px;
+  width: 70%;
+  align-items: center;
+  margin-left: 160px;
+}
+.daleteAll {
+  width: 70% !important;
+  margin-left: 160px;
+}
+
+@media (max-width: 1199px) {
+  .formImput {
+    margin-left: 155px;
+  }
+  .bg-list {
+    margin-left: 130px;
+  }
+  .daleteAll {
+    margin-left: 130px;
+  }
+}
+@media(max-width:991px) {
+  .formImput {
+    margin-left: 110px;
+  }
+  .submit {
+    margin-left: -70px;
+  }
+  .bg-list {
+    margin-left: 95px;
+  }
+  .daleteAll {
+    margin-left: 95px;
+  }
+}
+@media(max-width:767px) {
+  .formImput {
+    margin-left: 80px;
+  }
+  .submit {
+    margin-left: -55px;
+  }
+  .bg-list {
+    margin-left: 75px;
+  }
+  .daleteAll {
+    margin-left: 75px;
+  }
+}
+@media(max-width:575px) {
+  .formImput {
+    margin-left: 0 ;
+    width: 100% !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+  }
+  .submit {
+    margin-left: 200px;
+    margin-top: 20px;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+  }
+  .bg-list {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .daleteAll {
+    margin-left: 0px;
+    width: 100% !important;
+  }
+}
